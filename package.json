@@ -1,0 +1,23 @@
+{
+  "name": "test-addon",
+  "version": "1.0.0",
+  "description": "\"Tutorial from https://medium.com/@a7ul/beginners-guide-to-writing-nodejs-addons-using-c-and-n-api-node-addon-api-9b3b718a9a7f\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "keywords": [
+    "n-api"
+  ],
+  "author": "shamanth.norway",
+  "license": "ISC",
+  "devDependencies": {
+    "node-gyp": "^8.1.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^3.2.1"
+  },
+  "gypfile": true
+}
